@@ -5,6 +5,10 @@ public class C04_telefon {
     String model;
     String yil;
     int hafiza;
+
+    public C04_telefon() {//id atama
+    }
+
     public C04_telefon(String marka){
         this.marka=marka;
     }
